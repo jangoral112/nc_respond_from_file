@@ -6,7 +6,7 @@ trap "echo 'Exiting...'; exit" SIGINT
 PORT=3000
 
 # Define the JSON body in a human-readable format using a here-document.
-JSON_FILE="file_name.json"
+JSON_FILE="response.json"
 
 # Load JSON body from file.
 JSON_BODY=$(cat "$JSON_FILE")
